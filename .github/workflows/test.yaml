@@ -1,0 +1,19 @@
+name: test
+on:
+  pull_request:
+  push:
+  schedule:
+    - cron: "11 21 * * *"
+jobs:
+  test:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v1
+      - uses: actions/setup-node@v1
+      - uses: amancevice/setup-code-climate@master
+        with:
+          cc_test_reporter_id: ${{ secrets.CC_TEST_REPORTER_ID }}
+      - run: cc-test-reporter before-build
+      - run: npm install
+      - run: npm test
+      - run: cc-test-reporter after-build

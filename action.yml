@@ -1,4 +1,4 @@
-name: 'Setup Code Climate Test Reporter'
+name: 'Setup Code Climate'
 description: 'Sets up code climate test reporter in your GitHub Actions workflow.'
 author: 'small weird number'
 inputs:

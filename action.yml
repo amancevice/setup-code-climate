@@ -1,0 +1,16 @@
+name: 'Setup Code Climate Test Reporter'
+description: 'Sets up code climate test reporter in your GitHub Actions workflow.'
+author: 'small weird number'
+inputs:
+  cc_test_reporter_id:
+    description: 'Code Climate test reporter ID'
+  cc_test_reporter_version:
+    description: 'The version of Code Climate test reporter ID.'
+    default: 'latest'
+    required: false
+runs:
+  using: node12
+  main: index.js
+branding:
+  icon: umbrella
+  color: green

@@ -14,3 +14,5 @@ Setup `cc-test-reporter` binary to use with your GitHub Actions workflows
 # ...
 - run: cc-test-reporter after-build
 ```
+
+This action [uses itself](./.github/workflows/test.yaml) to run its test suite.

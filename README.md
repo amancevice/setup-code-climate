@@ -7,7 +7,7 @@
 Setup `cc-test-reporter` binary to use with your GitHub Actions workflows
 
 ```yaml
-- uses: amancevice/setup-code-climate@master
+- uses: amancevice/setup-code-climate@v0
   with:
     cc_test_reporter_id: ${{ secrets.CC_TEST_REPORTER_ID }}
 - run: cc-test-reporter before-build

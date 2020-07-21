@@ -7,7 +7,7 @@
   "version": "0.1.0",
   "dependencies": {
     "@actions/core": "^1.2.4",
-    "@actions/tool-cache": "^1.5.5"
+    "@actions/tool-cache": "^1.6.0"
   },
   "devDependencies": {
     "mocha": "^7.2.0",

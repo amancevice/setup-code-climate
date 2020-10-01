@@ -6,13 +6,13 @@
   "repository": "https://github.com/amancevice/setup-code-climate",
   "version": "0.1.0",
   "dependencies": {
-    "@actions/core": "^1.2.4",
+    "@actions/core": "^1.2.6",
     "@actions/tool-cache": "^1.6.0"
   },
   "devDependencies": {
     "mocha": "^7.2.0",
     "nyc": "^15.1.0",
-    "sinon": "^9.0.2"
+    "sinon": "^9.1.0"
   },
   "scripts": {
     "test": "nyc --reporter=lcov --reporter=text mocha"

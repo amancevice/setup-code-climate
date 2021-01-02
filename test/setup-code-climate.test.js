@@ -12,7 +12,7 @@ process.env.GITHUB_REF = '<GITHUB_REF>';
 describe('setup action', function() {
 
   before(function() {
-    //Stub core
+    // Stub core
     sinon.stub(core, 'addPath')
     sinon.stub(core, 'exportVariable')
 

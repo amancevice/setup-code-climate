@@ -1,15 +1,15 @@
-name: 'Setup Code Climate'
-description: 'Sets up code climate test reporter in your GitHub Actions workflow.'
-author: 'small weird number'
+name: Setup Code Climate
+description: Sets up code climate test reporter in your GitHub Actions workflow.
+author: small weird number
 inputs:
   cc_test_reporter_id:
-    description: 'Code Climate test reporter ID'
+    description: Code Climate test reporter ID
   cc_test_reporter_version:
-    description: 'The version of Code Climate test reporter ID.'
-    default: 'latest'
+    description: The version of Code Climate test reporter ID.
+    default: latest
     required: false
 runs:
-  using: node12
+  using: node16
   main: index.js
 branding:
   icon: umbrella

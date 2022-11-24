@@ -1,5 +1,4 @@
 .nyc_output/
-bin/
 coverage/
 node_modules/*
 !node_modules/@actions

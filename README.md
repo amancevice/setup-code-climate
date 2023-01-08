@@ -1,6 +1,6 @@
 # Setup Code Climate GitHub Action
 
-[![test](https://img.shields.io/github/workflow/status/amancevice/setup-code-climate/test?logo=github&style=flat-square)](https://github.com/amancevice/setup-code-climate/actions)
+[![test](https://img.shields.io/github/actions/workflow/status/amancevice/setup-code-climate/test.yaml?logo=github&style=flat-square)](https://github.com/amancevice/setup-code-climate/actions/workflows/test.yaml)
 [![coverage](https://img.shields.io/codeclimate/coverage/amancevice/setup-code-climate?logo=code-climate&style=flat-square)](https://codeclimate.com/github/amancevice/setup-code-climate/test_coverage)
 [![maintainability](https://img.shields.io/codeclimate/maintainability/amancevice/setup-code-climate?logo=code-climate&style=flat-square)](https://codeclimate.com/github/amancevice/setup-code-climate/maintainability)
 

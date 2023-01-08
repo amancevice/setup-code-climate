@@ -1,7 +1,4 @@
 .nyc_output/
 coverage/
-node_modules/*
-!node_modules/@actions
-!node_modules/semver
-!node_modules/tunnel
-!node_modules/uuid
+node_modules/
+package-lock.json

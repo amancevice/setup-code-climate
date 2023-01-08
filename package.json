@@ -10,6 +10,7 @@
     "@actions/tool-cache": "^1.7.1"
   },
   "devDependencies": {
+    "@vercel/ncc": "^0.36.0",
     "mocha": "^9.2.2",
     "nyc": "^15.1.0",
     "sinon": "^13.0.1"
